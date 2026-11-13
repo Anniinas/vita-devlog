@@ -1,0 +1,35 @@
+---
+title: Project Vita
+description: An isometric life-simulation sandbox made in Godot.
+template: splash
+hero:
+  tagline: Build houses, fill them with people, and watch what they do. Nobody tells them what to do.
+  actions:
+    - text: Read the devlog
+      link: blog/
+      icon: right-arrow
+    - text: About the game
+      link: game/overview/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Smart objects, simple agents" icon="puzzle">
+		Objects advertise what they offer, and agents pick what suits them best. Adding a new
+		object never needs new agent code.
+	</Card>
+	<Card title="Emergence over scripting" icon="random">
+		There are no scripted storylines. Stories come out of needs, money, schedules,
+		relationships, weather and architecture working together.
+	</Card>
+	<Card title="Legible minds" icon="comment-alt">
+		You can't give orders, so the game has to show what people want, what they feel and
+		where they fail.
+	</Card>
+	<Card title="A living world" icon="sun">
+		Seasons, weather, day and night, growing gardens, terrain, water and whole towns.
+	</Card>
+</CardGrid>
