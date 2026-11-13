@@ -24,6 +24,10 @@ export default defineConfig({
 					label: 'The game',
 					items: [{ autogenerate: { directory: 'game' } }],
 				},
+				{
+					label: 'Assets',
+					items: [{ autogenerate: { directory: 'assets' } }],
+				},
 			],
 		}),
 	],
